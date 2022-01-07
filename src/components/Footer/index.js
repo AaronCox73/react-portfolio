@@ -6,19 +6,19 @@ import Youtube from '../../assets/youtubeImg.png'
 function Footer() {
 
     return (
-        <footer className="footer">
-            <ul>
-                <li>
+        <footer className="">
+            <ul className="footer">
+                <li className="footerImg">
                     <a href="https://www.linkedin.com/in/aaron-j-cox-55b415213/">
                         <img src={Linkedin}></img>
                     </a>
                 </li>
-                <li>
+                <li className="footerImg">
                     <a href="https://github.com/AaronCox73">
                         <img src={GitHub}></img>
                     </a>
                 </li>
-                <li>
+                <li className="footerImg">
                     <a href="https://www.youtube.com/channel/UCYx3CNYRuEsioEB2hPGwpHA">
                         <img src={Youtube}></img>
                     </a>

@@ -18,8 +18,11 @@
   color: #61dafb;
 }
 
+.nav-item {
+  padding-left: 70px;
+}
 
-.nav-link:active {
+.active {
   color: #61dafb;
 }
 
@@ -54,31 +57,38 @@
   display: flex;
 flex-direction: row;
 justify-content: center;
-flex-shrink: 0;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.footerImg {
+  flex: 0 0 100px;
+ padding: 20px;
+  opacity: 40%;
 }
 
 footer img {
-  width: 7%;
-  height: 7%;
-  border-radius: 10%;
-  opacity: 40%;
-  
+  border-radius: 20px;
 }
 
 .portfolio {
   display: flex;
-  flex-direction: column;
   padding-left: 3%;
   padding-top: 5%;
+  flex-wrap: wrap;
 }
 
 .image {
+
   position: relative;
-  width: 50%;
-  height: 50%;
+  width: 100%;
+  height: 100%;
 }
 
-.image_img {
+.image__img {
   display: block;
   width: 100%;
 }
@@ -128,3 +138,7 @@ transition: opacity 0.2s;
   opacity: 90%;
 }
 
+.card {
+  flex: 0 0 700px;
+  padding: 20px;
+}
