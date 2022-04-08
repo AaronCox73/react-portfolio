@@ -1,0 +1,19 @@
+
+.aboutBackground {
+ align-self: center;
+ padding: 1%;
+  
+ position: relative;
+ 
+};
+
+
+
+
+
+.aboutInfo {
+    position: absolute; 
+    top: 200px; 
+    left: 0; 
+    width: 100%; 
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './NavTabs.css'
 
 function NavTabs(props) {
     const tabs = ['About', 'Resume', 'Portfolio', 'Contact'];
@@ -7,7 +7,7 @@ function NavTabs(props) {
         <header className="app-header">
 
             <ul className="nav nav-tabs flex-row ">
-                <h2>Aaron J. Cox</h2>
+                
                 {tabs.map(tab => (
                     <li className="nav-item mx-2" key={tab}>
                         <a

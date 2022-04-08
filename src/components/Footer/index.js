@@ -9,7 +9,7 @@ function Footer() {
         <footer className="">
             <ul className="footer">
                 <li className="footerImg">
-                    <a href="https://www.linkedin.com/in/aaron-j-cox-55b415213/">
+                    <a href="https://www.linkedin.com/in/aaronjeffersoncox/">
                         <img src={Linkedin}></img>
                     </a>
                 </li>

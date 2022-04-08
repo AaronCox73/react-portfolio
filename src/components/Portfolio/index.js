@@ -6,7 +6,7 @@ import TuneItOut from '../../assets/TuneItOut.png'
 import weather from '../../assets/weather.png'
 import passGen from '../../assets/passGen.png'
 import GitHub from '../../assets/GitHub.png'
-import SubscripZen from '../../assets/SubscipZen.png'
+// import SubscripZen from '../../assets/SubscripZen.png'
 
 function Portfolio() {
 
@@ -86,9 +86,9 @@ function Portfolio() {
                     </div>
                 </div>
             </div>
-            <div className="card">
+            {/* <div className="card">
                 <div className='image'>
-                    <img className="image__img" src={SubscripZen} ></img>
+                    {/* <img className="image__img" src={SubscripZen} ></img> }
                     <div className="image_overlay">
                         <a href="https://peaceful-gorge-13766.herokuapp.com/">
                             <div className="img_title">Live Site</div></a>
@@ -97,7 +97,7 @@ function Portfolio() {
                         </a>
                     </div>
                 </div>
-            </div>
+            </div>*/}
 
 
         </section>
