@@ -1,16 +1,19 @@
 .aboutInfo {
-    color: blue; 
+    color: black; 
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    background-color: rgba(255,255,255,.3)
+  
   }
 
 .about-me {
 max-width: 1000px;
 margin-left: auto;
 margin-right: auto;
-background-color: green; 
+background-color: rgba(255,255,255,.3);
+
 position: relative;
 text-align: center;
 
@@ -20,6 +23,6 @@ text-align: center;
  align-self: center;
  padding: 1%;
  position: relative;
- 
+ opacity: 0.85;
 };
 
