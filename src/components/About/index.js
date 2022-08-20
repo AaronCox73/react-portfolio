@@ -1,5 +1,5 @@
 import React from 'react';
-import "./about.css"
+import "../About/about.css"
 import SLC from '../../assets/slc.jpeg'
 
 function About() {
