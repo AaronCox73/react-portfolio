@@ -2,7 +2,8 @@
   "name": "photo-port",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://aaroncox73.github.io/ReactPortfolio-update",
+  "homepage": "http://aaroncox73.github.io/react-portfolio",
+ 
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.0",
     "@testing-library/react": "^11.2.7",
